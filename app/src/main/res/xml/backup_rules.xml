@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 11 及以下的备份规则：App 明确禁止备份，排除全部数据 -->
+<full-backup-content>
+    <exclude
+        domain="root"
+        path="." />
+</full-backup-content>

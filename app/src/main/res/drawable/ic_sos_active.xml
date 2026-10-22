@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SOS 状态卡-紧急态图标：白三角 + 红感叹号（红色渐变卡片上对比清晰，感叹号不融色） -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="44dp"
+    android:height="44dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M12,2.8L22.5,20.5H1.5Z" />
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M11,8.2h2v6.2h-2z" />
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M11,16.6h2v1.8h-2z" />
+</vector>

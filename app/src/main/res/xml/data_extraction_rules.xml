@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 12+ 备份规则：App 明确禁止备份，云备份与设备迁移均排除全部数据 -->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude
+            domain="root"
+            path="." />
+    </cloud-backup>
+    <device-transfer>
+        <exclude
+            domain="root"
+            path="." />
+    </device-transfer>
+</data-extraction-rules>
